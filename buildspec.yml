@@ -10,7 +10,6 @@ phases:
   build:
     commands:
       - echo Build started on `date`
-      - ./gradlew clean
       - chmod +x android/gradlew
       - cd android
       - ./gradlew assembleDebug
